@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome-free-6.2.0-web/css/all.min.css">
 </head>
 <body>
     <header class="header">
-        <div class="container mt-2 border">
+        <div class="container-fluid mt-2 bg-black text-white">
             <div class="row">
                 <div class="col text-start">
                     logo1
@@ -22,7 +22,169 @@
         </div>
     </header>
 
-    
+    <section>
+		<div class="container-fluid bg-black text-center text-white">
+			<div class="row">
+				<div class="col-md-6 text-end">
+                    <img src="test.jpg" alt="test" class="img-fluid" width="50%" height="50%">
+                </div>
+                <div class="col-md-4 text-start">
+                    <div class="row">
+                        <p class="display-6 text-white">Conoce nuestros servicios</p>
+                        <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit recusandae temporibus praesentium ipsum voluptate excepturi enim, suscipit dolores? Reprehenderit fugiat autem ipsa culpa nihil aut eaque sint commodi ut dolore!</p>
+                    </div>
+                </div>
+			</div>	
+		</div>
+        <div class="flex-container container-fluid" style="background: linear-gradient(to bottom, black 50%, white 50%);">
+            <br><br><br>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="test.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="test.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="test.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="test.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    Boton Carrusel
+                </div>
+            </div>
+        </div>	
+        <div class="container mt-5 mb-5">
+            <div class="accordion" id="acordionLogica">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingUno">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUno" aria-expanded="false" aria-controls="collapseUno">
+                            <h3>CONSULTORIA IT</h3>
+                        </button>
+                    </h2>
+                    <div id="collapseUno" class="accordion-collapse collapse" aria-labelledby="headingUno" data-bs-parent="#acordionLogica">
+                        <div class="accordion-body p-0">
+                            <a href="#" class="btn btn-outlink-light">Servicios en nube</a>
+                        </div>
+                        <div class="accordion-body p-0">
+                            <a href="#" class="btn btn-outlink-light">Servicios en nube</a>
+                        </div>
+                        <div class="accordion-body p-0">
+                            <a href="#" class="btn btn-outlink-light">Servicios en nube</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingDos">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDos" aria-expanded="false" aria-controls="collapseDos">
+                            <h3>CREACIÓN DE NUBES PRIVADAS</h3>
+                        </button>
+                    </h2>
+                    <div id="collapseDos" class="accordion-collapse collapse" aria-labelledby="headingDos" data-bs-parent="#acordionLogica">
+                        <div class="accordion-body">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTres">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTres" aria-expanded="false" aria-controls="collapseTres">
+                            <h3>CREACIÓN DE FLUJOS O CAPACITACIONES</h3>
+                        </button>
+                    </h2>
+                    <div id="collapseTres" class="accordion-collapse collapse" aria-labelledby="headingTres" data-bs-parent="#acordionLogica">
+                        <div class="accordion-body">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingCuatro">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCuatro" aria-expanded="false" aria-controls="collapseCuatro">
+                            <h3>COMERCIALIZACIÓN DE CORREO ELECTRONICO</h3>
+                        </button>
+                    </h2>
+                    <div id="collapseCuatro" class="accordion-collapse collapse" aria-labelledby="headingCuatro" data-bs-parent="#acordionLogica">
+                        <div class="accordion-body">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingCinco">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCinco" aria-expanded="false" aria-controls="collapseCinco">
+                            <h3>MIGRACIONES DE NUBE PRIVADA A PUBLICA</h3>
+                        </button>
+                    </h2>
+                    <div id="collapseCinco" class="accordion-collapse collapse" aria-labelledby="headingCinco" data-bs-parent="#acordionLogica">
+                        <div class="accordion-body">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSeis">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeis" aria-expanded="false" aria-controls="collapseSeis">
+                            <h3>TRANSFORMACIÓN DIGITAL</h3>
+                        </button>
+                    </h2>
+                    <div id="collapseSeis" class="accordion-collapse collapse" aria-labelledby="headingSeis" data-bs-parent="#acordionLogica">
+                        <div class="accordion-body">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSiete">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSiete" aria-expanded="false" aria-controls="collapseSiete">
+                            <h3>SWITCHING AND ROUTING</h3>
+                        </button>
+                    </h2>
+                    <div id="collapseSiete" class="accordion-collapse collapse" aria-labelledby="headingSiete" data-bs-parent="#acordionLogica">
+                        <div class="accordion-body">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOcho">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOcho" aria-expanded="false" aria-controls="collapseOcho">
+                            <h3>ENTREGA DE SERVICIOS</h3>
+                        </button>
+                    </h2>
+                    <div id="collapseOcho" class="accordion-collapse collapse" aria-labelledby="headingOcho" data-bs-parent="#acordionLogica">
+                        <div class="accordion-body">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingNueve">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNueve" aria-expanded="false" aria-controls="collapseNueve">
+                            <h3>SOPORTE TI/TELCO</h3>
+                        </button>
+                    </h2>
+                    <div id="collapseNueve" class="accordion-collapse collapse" aria-labelledby="headingNueve" data-bs-parent="#acordionLogica">
+                        <div class="accordion-body">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</section>
 
     <footer class="footer">
         <div class="container border">
@@ -117,8 +279,10 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>
 </html>
 
